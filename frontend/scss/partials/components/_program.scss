@@ -1,0 +1,94 @@
+.program {
+  color: $black;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  position: relative;
+
+  .vector-right {
+    position: absolute;
+    right: 0;
+    top: -10rem;
+  }
+  .vector-left {
+    position: absolute;
+    left: 0;
+    bottom: -10rem;
+  }
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    max-height: 29rem;
+  }
+  &_item {
+    font-size: 2.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    position: relative;
+    span {
+      font-size: 5rem;
+      font-weight: 600;
+      font-family: $title-fonts;
+      text-transform: uppercase;
+      margin-right: 4rem;
+    }
+
+  }
+  &--long {
+    margin-left: -2rem;
+  }
+  &_slider {
+    position: relative;
+    max-width: 95rem;
+    margin: 15rem auto 0;
+    img {
+
+      max-width: 100%;
+    }
+    &-elem {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 8%;
+    }
+  }
+}
+
+@media only screen and (max-width: $screen-xlg-max) {
+  .program {
+    padding-top: 3rem;
+    .vector-right {
+      display: none;
+    }
+    .vector-left {
+      display: none;
+    }
+  }
+  .program_slider {
+    margin-top: 6rem;
+  }
+
+}
+
+@media only screen and (max-width: $screen-md-max) {
+  .program_item {
+    font-size: 1.8rem;
+  }
+  .program_item span {
+    font-size: 4rem;
+    margin-right: 2rem;
+  }
+  .program_list {
+    max-height: 23rem;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .program_list {
+    max-height: none;
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+}

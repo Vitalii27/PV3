@@ -1,0 +1,47 @@
+/* VENDOR */
+@import "partials/vendor/normalize";
+//@import "partials/vendor/clearfix";
+@import "partials/vendor/bootstrap-4/bootstrap-grid";
+/* VENDOR END */
+/* -------------------- */
+/* VARIABLES */
+@import "partials/common/variables";
+@import "partials/common/fonts";
+/* VARIABLES END */
+/* COMMON */
+@import "partials/common/best-practices";
+@import "partials/common/common";
+@import "partials/common/typography";
+@import "partials/common/service-classes";
+/* COMMON END */
+/* -------------------- */
+/* LAYOUT */
+@import "partials/layout/layout";
+/* LAYOUT END */
+/* -------------------- */
+/* BLOCKS */
+
+@import "partials/components/pop-up";
+@import "partials/components/header";
+@import "partials/components/home";
+@import "partials/components/button";
+@import "partials/components/second-section";
+@import "partials/components/title";
+@import "partials/components/slider";
+@import "partials/components/program";
+@import "partials/components/result";
+@import "partials/components/author";
+@import "partials/components/advantages";
+@import "partials/components/two-days";
+
+
+
+/* BLOCKS END*/
+
+/* -------------------- */
+
+/* GENERAL */
+
+/* GENERAL END */
+
+/* -------------------- */

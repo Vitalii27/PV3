@@ -1,0 +1,49 @@
+/* common.scss */
+
+/* selection */
+*::selection {
+  color: $gray-900;
+  background: rgba($gray-600, 0.3);
+}
+
+:root {
+  font-size: $html-font-size;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  min-width: $content-min-width;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: $white;
+  background: $white;
+  font-family: $default-fonts;
+  overflow-x: hidden;
+  overflow-y: hidden !important;
+}
+
+img {
+  max-width: 100%;
+}
+.text-orange {
+  color: $orange;
+}
+.js body {
+  //opacity: 0;
+  //transition-property: opacity;
+  //transition-duration: .75s;
+  //transition-timing-function: ease-out;
+}
+
+/* common.scss end */

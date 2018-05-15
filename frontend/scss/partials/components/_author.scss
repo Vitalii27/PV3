@@ -1,0 +1,68 @@
+.author {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -15rem;
+  padding-bottom: 5rem;
+  position: relative;
+  &_content {
+    max-width: 66rem;
+    margin: 14rem 0 5rem auto;
+  }
+  .title {
+    margin-bottom: 3rem;
+  }
+  p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  &_list {
+    margin-top: 3rem;
+  }
+  &_item {
+    position: relative;
+    margin-top: 3rem;
+    span {
+      margin-left: 5rem;
+      display: block;
+    }
+    &:after {
+      content: '';
+      display: block;
+      background-image: url("../../assets/images/icon/check.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 3rem;
+      height: 3rem;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  &_channel-desc{
+    margin-top: 3rem;
+  }
+  &_list-channel{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -2rem;
+  }
+  &_item-channel{
+
+    margin: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .author_content{
+    p{
+      text-align: center;
+    }
+  }
+  .author_list-channel{
+    margin-left: 0;
+  }
+}

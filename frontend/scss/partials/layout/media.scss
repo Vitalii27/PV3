@@ -1,0 +1,18 @@
+// ------ Desktop first ------
+@media only screen and (max-width: $screen-lg-max) {} // till 1199px
+
+@media only screen and (max-width: $screen-md-max) {} // till 991px
+
+@media only screen and (max-width: $screen-sm-max) {} // till 769px
+
+@media only screen and (max-width: $screen-xs-max) {} // till 575px
+
+
+// ------ Mobile first ------
+@media only screen and (min-width: $screen-xl-min) {} // from 1201px
+
+@media only screen and (min-width: $screen-lg-min) {} // from 993px
+
+@media only screen and (min-width: $screen-md-min) {} //  rom 769px
+
+@media only screen and (min-width: $screen-sm-min) {} // from 577px

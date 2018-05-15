@@ -1,0 +1,65 @@
+.advantages {
+  padding-top: 10rem;
+  background-color: #f5f5f5;
+  margin-top: -7rem;
+  color: $black;
+  position: relative;
+  padding-bottom: 12rem;
+  .vector-right {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .vector-left {
+    position: absolute;
+    right: 0;
+    bottom: 0rem;
+  }
+  &_content {
+    margin-top: 5rem;
+  }
+  &_list {
+    display: flex;
+
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    justify-content: center;
+  }
+  &_item {
+    min-width: 45.5rem;
+    max-width: 45.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 20px 0px rgba(229, 228, 226,1);
+    position: relative;
+    margin: 1rem;
+    min-height: 29rem;
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+    span{
+      font-size: 2.2rem;
+      font-weight: 600;
+      max-width: 19.5rem;
+      display: inline-block;
+    }
+    .text-orange{
+      font-size: 5rem;
+      font-weight: 600;
+      margin-right: 2.5rem;
+      max-width: none;
+    }
+    img{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 480px) {
+.advantages_item{
+  padding-left: 7.5rem;
+}
+}

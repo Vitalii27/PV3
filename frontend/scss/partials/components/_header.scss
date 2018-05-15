@@ -1,0 +1,46 @@
+.header {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  right: 0;
+  z-index: 999999 !important;
+  &_wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  &_left{
+    max-width: 11.5rem;
+
+    img {
+      display: block;
+
+    }
+  }
+  &_right{
+    text-align: center;
+
+  }
+  &_phone{
+    display: inline-block;
+     font-weight: 800;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: $title-font;
+  }
+}
+
+
+
+
+@media only screen and (max-width: $screen-sm-max) {
+  .header_phone{
+    font-size: 2.5rem;
+  }
+  .header_right p{
+    font-size: 1.4rem;
+  }
+  .header_wrap{
+    align-items: center;
+  }
+
+}

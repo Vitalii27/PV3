@@ -1,0 +1,63 @@
+$html-font-size: 62.5%;
+
+/* breakpoints */
+
+$screen-xs: 0 !default; // 0
+//// Small screen / tablet
+$screen-sm: 36em !default; // 576px
+//// Medium screen / desktop
+$screen-md: 48em !default; // 768px
+//// Large screen
+$screen-lg: 62em !default; // 992px
+//// Extra large screen
+$screen-xl: 75em !default; // 1200px
+//// Super extra large screen
+$screen-xl: 75em !default; // 1200px
+$screen-xlg: 100em !default; // 1600px
+$grid-breakpoints: ( xs: 0, sm: $screen-sm, md: $screen-md, lg: $screen-lg, xl: $screen-xl) !default;
+$content-max-width: 114rem !default;
+$content-min-width: 30rem !default;
+// for min-width media
+//
+//$screen-xs-min: $screen-xs !default; // from 768
+$screen-sm-min: $screen-sm !default; // from 577px
+$screen-md-min: $screen-md !default; // from 769px
+$screen-lg-min: $screen-lg !default; // from 993px
+$screen-xl-min: $screen-xl !default; // from 1201px
+// for max-width media
+//
+$screen-xs-max: ($screen-sm - 0.0625) !default; // till 575
+$screen-sm-max: ($screen-md - 0.0625) !default; // till 769px
+$screen-md-max: ($screen-lg - 0.0625) !default; // till 991px
+$screen-lg-max: ($screen-xl - 0.0625) !default; // till 1199px
+$screen-xlg-max: ($screen-xlg - 0.0625) !default; // till 1599
+
+/* color variables */
+
+$white: #fff; //const
+$black: #000; //const
+$red: #E42934;
+$blue-200: #EEF2F5;
+$blue-300: #d3dbe1;
+$blue-400: #caccde;
+$blue-900: #242635;
+$blue: #07B8CC;
+$white-200: #f2f2f2;
+$white-300: #ebebeb;
+$gray-400: #dbe4eb;
+$gray-500: #343235;
+$gray-600: #adadad;
+$gray-700: #868686;
+$gray-800: #555555;
+$gray-900: #212121;
+$orange: #e99006;
+
+/* fonts */
+
+$main-font: 'HelveticaNeueCyr';
+$title-font: 'BebasNeue';
+$default-fonts: $main-font,
+'sans-serif';
+$title-fonts: $title-font,
+$main-font,
+'sans-serif';

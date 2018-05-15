@@ -1,0 +1,42 @@
+.two-days{
+  margin-top: -7rem;
+  color: $white;
+  padding-bottom: 14rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &_content{
+    margin-top: 10rem;
+  }
+  .program_list{
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    max-height: 34rem;
+  }
+  .program_item{
+    max-width: 60rem;
+    margin-top: 1.5rem;
+    .text-orange{
+      margin-right: 1.5rem;
+
+    }
+  }
+
+}
+@media only screen and (max-width: 1600px) {
+  .two-days{
+    .program_content{
+      margin-top: 11rem;
+    }
+
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .two-days{
+    .program_list{
+      max-height: none;
+      max-width: 60rem;
+      margin: 0 auto;
+    }
+  }
+}

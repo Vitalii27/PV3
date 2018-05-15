@@ -1,0 +1,210 @@
+.welcome {
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 19rem;
+  position: relative;
+  z-index: 10;
+  &_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  &_title {
+    h3 {
+      text-transform: uppercase;
+      font-size: 5.6rem;
+      font-weight: 400;
+      text-transform: uppercase;
+
+    }
+    h1 {
+      color: $orange;
+      font-size: 14rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: $title-font;
+    }
+  }
+  &_desc {
+    height: 0;
+    width: 100%;
+    max-width: 51rem;
+    border-top: 40px solid $white;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    position: relative;
+    margin: 1rem auto 0;
+    p {
+      position: absolute;
+      top: -3.2rem;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      font-size: 2.4rem;
+      text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.44);
+      font-weight: 600;
+
+      color: $orange;
+    }
+  }
+  &_date {
+    margin-top: 2.5rem;
+    p {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+    }
+    &-numbers {
+      display: flex;
+
+      align-items: center;
+
+    }
+    &-numbers-elem {
+      &:first-child {
+        margin-right: .7rem;
+
+      }
+      &:last-child {
+        margin-left: .7rem;
+      }
+      position: relative;
+      border-radius: 3px;
+      letter-spacing: 4px;
+      display: flex;
+      align-items: center;
+      color: $gray-500;
+      padding: 1rem 1.5rem .5rem;
+
+      font-size: 5.8rem;
+      font-weight: 600;
+      font-family: $title-font;
+      background-image: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(219, 219, 219) 27%, rgb(183, 183, 183) 50%, rgb(219, 219, 219) 74%, rgb(255, 255, 255) 100%);
+      &:before {
+        content: '';
+        display: block;
+        height: 2px;
+        background-color: #8f8e8f;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  &_address {
+    margin-top: 3rem;
+    margin-left: 7rem;
+    &-content {
+      position: relative;
+      &:first-child {
+        margin-right: 8rem;
+        &:before {
+          height: 1px;
+          content: "";
+          position: absolute;
+          width: 8rem;
+          right: -81px;
+          -webkit-transform: rotate(-30deg);
+          transform: rotate(-47deg);
+          display: block;
+          background-color: #838383;
+          bottom: 34px;
+        }
+      }
+    }
+    display: flex;
+    text-align: left;
+    p {
+      font-size: 1.8rem;
+    }
+    h2 {
+      margin-top: 1rem;
+      font-weight: 600;
+      font-size: 4rem;
+      color: $orange;
+      text-transform: uppercase;
+      font-family: $title-font;
+    }
+  }
+  &_buttons {
+    width: 100%;
+  }
+  &_arrow {
+    margin-top: 12rem;
+  }
+}
+
+@media only screen and (max-width: $screen-xlg-max) {
+  .welcome{
+    padding-top: 14rem;
+  }
+  .welcome_title h3{
+    font-size: 3.5rem;
+  }
+  .welcome_title h1{
+    font-size: 9rem;
+  }
+  .welcome_address{
+    margin-top: 1rem;
+  }
+  .welcome_desc{
+    margin-top: 0;
+  }
+  .welcome_desc p{
+    font-size: 1.9rem;
+  }
+  .welcome_date-numbers-elem{
+    font-size: 5rem;
+  }
+  .welcome_date{
+    margin-top: 1.5rem;
+  }
+  .welcome_arrow{
+    margin-top: 2rem;
+  }
+  .welcome_address h2 {
+    margin-top: .5rem;
+      font-size: 3rem;
+
+  }
+}
+
+
+@media only screen and (max-width: $screen-sm-max)  {
+  .welcome{
+    padding-top: 18rem;
+  }
+  .welcome_title h3{
+    font-size: 2.5rem;
+  }
+  .welcome_title h1{
+    font-size: 7rem;
+  }
+  .welcome_desc p{
+    font-size: 1.4rem;
+    top: -2.8rem;
+  }
+  .welcome_date-numbers-elem{
+    font-size: 4rem;
+  }
+  .welcome_address{
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  .welcome_address h2{
+    font-size: 2.5rem;
+  }
+  .welcome_address-content:first-child:before {
+
+    width: 6rem;
+    right: -72px;
+
+    bottom: 25px;
+  }
+}
