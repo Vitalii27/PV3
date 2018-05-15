@@ -1,24 +1,46 @@
 /* VENDOR */
+
 @import "partials/vendor/normalize";
 //@import "partials/vendor/clearfix";
 @import "partials/vendor/bootstrap-4/bootstrap-grid";
+
 /* VENDOR END */
+
+
 /* -------------------- */
+
+
 /* VARIABLES */
+
 @import "partials/common/variables";
 @import "partials/common/fonts";
+
 /* VARIABLES END */
+
+
 /* COMMON */
+
 @import "partials/common/best-practices";
 @import "partials/common/common";
 @import "partials/common/typography";
 @import "partials/common/service-classes";
+
 /* COMMON END */
+
+
 /* -------------------- */
+
+
 /* LAYOUT */
+
 @import "partials/layout/layout";
+
 /* LAYOUT END */
+
+
 /* -------------------- */
+
+
 /* BLOCKS */
 
 @import "partials/components/pop-up";
@@ -33,15 +55,19 @@
 @import "partials/components/author";
 @import "partials/components/advantages";
 @import "partials/components/two-days";
-
-
+@import "partials/components/entry";
+@import "partials/components/footer-section";
 
 /* BLOCKS END*/
 
+
 /* -------------------- */
+
 
 /* GENERAL */
 
+
 /* GENERAL END */
+
 
 /* -------------------- */

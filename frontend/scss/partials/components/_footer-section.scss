@@ -1,0 +1,108 @@
+.section-footer {
+  background-color: $black;
+  margin-top: -10rem;
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9rem;
+  }
+  &_left-title {
+    .title {
+      text-align: left;
+      margin-bottom: 0;
+    }
+    .text-orange {
+      font-size: 4rem;
+
+    }
+  }
+  &_left-day {
+    margin-bottom: 2rem;
+    .title {
+      text-align: left;
+      margin-bottom: 3rem;
+    }
+    .text-orange {
+      font-size: 2.4rem;
+
+    }
+  }
+  &_left-item {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+  &_left-item-right {
+    margin-left: 3.5rem;
+    font-weight: 500;
+  }
+  &_left-item-left {
+    min-width: 9.52rem;
+    font-style: 1.8rem;
+    font-weight: 600;
+  }
+  &_right {
+    max-width: 55.5rem;
+    margin: 0 0 0 auto;
+    margin-top: 3rem;
+    .fa {
+      color: $orange;
+      font-size: 2rem;
+    }
+    .title {
+      text-align: left;
+      font-size: 2.4rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-weight: 500;
+      line-height: 1.4;
+      font-size: 1.8rem;
+      margin-top: .5rem;
+      a {
+        color: $orange;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+  &_right-promo {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: $title-font;
+    font-weight: 600;
+    max-width: 27rem;
+    width: 100%;
+    padding: 1.5rem 0 1rem;
+    border: 1px dashed #666666;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  &_right-tarif {
+    margin-top: 7rem;
+  }
+  &_right-tarif-text {
+    display: flex;
+    .text-orange {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-right: 2rem;
+      margin-top: .9rem;
+    }
+    hr {
+      background-color: #4d4d4d;
+      margin-top: 2rem;
+      color: #4d4d4d;
+      border: 0px none;
+      height: 1px;
+    }
+    p {
+      max-width: 30.5rem;
+    }
+  }
+}
