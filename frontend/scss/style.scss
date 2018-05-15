@@ -2,7 +2,7 @@
 
 @import "partials/vendor/normalize";
 //@import "partials/vendor/clearfix";
-@import "partials/vendor/bootstrap-4/bootstrap-grid";
+// @import "partials/vendor/bootstrap-4/bootstrap-grid";
 
 /* VENDOR END */
 
@@ -22,7 +22,7 @@
 
 @import "partials/common/best-practices";
 @import "partials/common/common";
-@import "partials/common/typography";
+// @import "partials/common/typography";
 @import "partials/common/service-classes";
 
 /* COMMON END */
@@ -57,6 +57,7 @@
 @import "partials/components/two-days";
 @import "partials/components/entry";
 @import "partials/components/footer-section";
+@import "partials/components/footer";
 
 /* BLOCKS END*/
 

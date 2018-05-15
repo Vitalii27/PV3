@@ -1,26 +1,26 @@
 .section {
-  padding: 4rem 0;
-  hr {
-    border: none;
-    padding: 0;
-    border-bottom: .1rem solid $white-300;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
+    padding: 4rem 0;
+    hr {
+        border: none;
+        padding: 0;
+        border-bottom: .1rem solid #4d4d4d;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
 }
 
 .bg-light-blue {
-  background-color: $blue-200;
+    background-color: $blue-200;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .text-right {
-  text-align: right;
+    text-align: right;
 }
 
 .text-left {
-  text-align: left;
+    text-align: left;
 }

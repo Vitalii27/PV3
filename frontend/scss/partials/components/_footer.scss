@@ -1,0 +1,33 @@
+.footer {
+    background-color: $black;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &_content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_content-left {
+        span {
+            text-decoration: underline;
+        }
+    }
+    &_content-right {
+        max-width: 54.5rem;
+        margin: 0 0 0 auto;
+        a {
+            &:hover {
+                text-decoration: underline
+            }
+        }
+        span {
+            font-weight: 600;
+        }
+    }
+    &_bottom {
+        margin-top: 3rem;
+    }
+}
