@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 2rem;
     &_content {
         display: flex;
         justify-content: space-between;
@@ -29,5 +30,21 @@
     }
     &_bottom {
         margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: $screen-sm-max) {
+    .footer_content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_content-right{
+        max-width: 100%;
+
+    }
+    .footer_content-right{
+        margin-top: 2rem;
+    }
+    .footer_bottom{
+        text-align: center;
     }
 }

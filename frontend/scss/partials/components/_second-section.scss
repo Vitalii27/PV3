@@ -68,7 +68,12 @@
     justify-content: space-between;
   }
 }
-
+@media only screen and (max-width: $screen-xlg-max) {
+  .about-us{
+    background-position: 0%;
+    position: static;
+  }
+}
 @media only screen and (max-width: $screen-md-max) {
   .about-us_advantages{
     flex-direction: column;
@@ -80,6 +85,9 @@
   }
   .about-us_advantages-item{
     margin-top: 1.5rem;
+  }
+  .about-us_video{
+    padding-bottom: 60%;
   }
 }
 

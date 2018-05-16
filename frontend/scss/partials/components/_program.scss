@@ -58,7 +58,11 @@
 
 @media only screen and (max-width: $screen-xlg-max) {
   .program {
+    margin-top: -6rem;
+    background-color: $white;
     padding-top: 3rem;
+    &_content{ margin-top: 3rem;}
+
     .vector-right {
       display: none;
     }

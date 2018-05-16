@@ -107,3 +107,37 @@
         }
     }
 }
+
+@media only screen and (max-width: $screen-sm-max) {
+    .section-footer{
+        margin-top: -6rem;
+    }
+    .section-footer_content{
+        flex-direction: column;
+    }
+    .section-footer_left-list{
+        max-width: 35rem;
+        margin: 0 auto;
+    }
+    .section-footer_left-day .title{  text-align: center;}
+    .section-footer_left-title .title{
+        text-align: center;
+    }
+    .section-footer_right-promo{
+        margin: 0 auto 2rem;
+    }
+    .section-footer_right{
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .section-footer_right .title{
+        text-align: center;
+    }
+    .section-footer_right{
+        margin-top: 2rem;
+    }
+    .section-footer_right-tarif-text{
+        justify-content: center;
+    }
+}
